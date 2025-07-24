@@ -4,5 +4,5 @@ from telegram.ext import (
     ApplicationBuilder, CommandHandler, ContextTypes
 )
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "7623419212:AAHNX4s0vKdCixyjLOeSQXyBD2pwKSV_oa8"
 app = ApplicationBuilder().token(BOT_TOKEN).build()

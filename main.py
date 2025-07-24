@@ -5,7 +5,7 @@ from telegram.ext import (
 )
 
 # 🔐 Получение токена из переменных окружения Railway
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = 7623419212:AAHNX4s0vKdCixyjLOeSQXyBD2pwKSV_oa8
 
 # 📍 Глобальный язык по умолчанию (EN)
 user_languages = {}

@@ -60,7 +60,7 @@ async def launch(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🚀 The Launch sequence is initializing. Await confirmation...")
 
 # ▶️ Запуск бота
-if name == "__main__":
+if __name__ == "__main__":
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
     # Хендлеры
